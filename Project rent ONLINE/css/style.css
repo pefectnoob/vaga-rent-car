@@ -1,0 +1,10 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url('../images/hero.jpg') center/cover no-repeat;
+  min-height: 80vh;
+}
+
+.card { transition: transform .3s; }
+.card:hover { transform: translateY(-5px); }
+
+body { font-family: 'Segoe UI', sans-serif; }
